@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-image:url("../img/fondo.jpg")
+    
+    
+    
+}
+
+
+
+
+/********** Header *********/
+
+.logo {
+    width: 125px;
+    cursor: pointer;
+}
+
+header {
+  
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    width: 100%;
+    
+}
+header a img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+header h1 {
+    margin: 50px;
+    color: rgb(249, 232, 232);
+    font-size: 55px;
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+nav a{
+    color: white;
+    padding: 20px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.linea{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    }
+
+
+
+/******* MAIN ***********/
+
+/*index*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+section{
+    
+    flex: 70%;
+    
+    padding: 20px;
+}
+
+.allado h2{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+.allado p{
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    font-size: xx-large;
+}
+.allado img {
+    padding: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.bienvenido h2{
+    font-size: xx-large;
+    color: white;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bienvenido p{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+
+}
+
+.bienvenido iframe{
+    margin: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*paquetes*/
+
+.paquete h2{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px;
+}
+.paquete p {
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+}
+.paquete img{
+    
+    width: 750px;
+    height: 500px;
+    
+}
+
+.actividades p {
+    color: white;
+    font-size: xx-large;
+    padding: 30px;
+}
+.actividades ol li {
+    color: white;
+    font-size: xx-large;
+    padding: 30px;
+    
+
+}
+
+/*destinos*/-----------------------------------------------
+#carouselExampleCaptions {
+    max-width: 300px; /* Ancho máximo del carrusel */
+    margin: 100px; /* Centra el carrusel en el contenedor */
+  }
+  
+  #carouselExampleCaptions .carousel-inner  img {
+    max-height: 700px; /* Altura máxima de las imágenes del carrusel */
+    width: 100%; /* Ajusta el ancho de las imágenes al contenedor */
+  }
+.caraousel-innter h5{
+    font-size: 40px;
+  }
+  
+
+
+
+
+/*.container{
+    grid-template-columns: 100px 100px 100px;
+    display: grid;
+}
+
+.container div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/*.salgas h2 {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px
+
+
+}
+
+.cataratas h3 {
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+
+}
+.cataratas img {
+    height: 100px;
+    width: 100px;
+padding: 15px;
+background-color: rgb(196, 122, 12);
+}
+
+.cataratas p {
+    color: white;
+    font-size: large;
+}
+.islandia h3 {
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+}
+.islandia img {
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    background-color: rgb(63, 215, 249);
+}
+.islandia p {
+    color: white;
+    font-size: large;
+}
+
+.br h3 {
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+}
+.br img {
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+.br p {
+    color: white;
+    font-size: large;
+}
+
+.baires h3 {
+    color: white;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.baires img {
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+    background-color: rgb(66, 68, 68);
+}
+.baires p{
+     color: white;
+     font-size: large;
+}
+
+
+
+/***** CONTACTO ***/-------------------------------------------------
+
+.contacto h2 {
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px;
+}
+
+.contacto p {
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+
+.contacto div {
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+
+
+/*****visitanos******/
+
+.visita h3 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.visita p {
+    font-size: 30px;
+text-align: center;
+
+}
+
+/******** FOOTER **********/
+footer{
+    width: 100%;
+background-color: rgb(56, 3, 3);
+display: flex;
+}
+
+footer h2{
+    font-size: xx-large;
+    padding: 30px;
+    color: rgb(253, 253, 253);
+}
+
+footer .pie img{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+/******* MEDIA QUERY******/
+@media  screen and (max-width:1324px){
+    .allado img{
+        height: 400px;
+        width: 350px;
+        left: 450px;
+    }
+}
+    
+
+
+@media screen and (max-width:1040px){
+nav, .row{
+        flex-direction: column;
+} 
+
+.allado img{
+    padding: 0px;
+    position: relative;
+    left: 350px;
+}
+nav ul {
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.bienvenido iframe{
+    width: 350px;
+    height: 280px;
+}
+
+
+}
+@media screen and (max-width:852px){
+.allado img{
+    height: 300px;
+    width: 250px;
+    left: 280px;
+    
+
+}
+}
+
+@media screen and (max-width:600px){
+    .allado img{
+        height: 250px;
+        width: 200px;
+        left: 180px;
+        
+    
+    }
+    .linea{
+        font-size: 5px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    footer .pie img{
+        height: auto;
+        width: auto;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    .bienvenido iframe{
+        width: 200px;
+        height: 170px;
+    }
+    
+    }
+
+@media screen and (max-width:430px){
+    .bienvenido p{
+        font-size: 15px;
+    }
+    .bienvenido h1{
+        font-size: 15px;
+    }
+    .linea{
+        font-size: 2px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    .bievenido iframe{
+        width: 80px;
+        height: 50px;
+    }
+    footer .pie img{
+        height: auto;
+        width: auto;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    footer h2{
+        font-size: 15px;
+    padding: 30px;
+    color: rgb(253, 253, 253);
+    }
+    .allado img{
+        height: 280px;
+        width: 150px;
+        left: 130px;
+    }
+    .allado h2 {
+        font-size: 25px;
+
+    }
+    .allado p{
+        font-size: 15px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    .Logo{
+        height: 100px;
+        height: 100px;
+    }
+}
+    
+
+        
+
+        
+
+        
+        
+    
+    
+
+
+    
