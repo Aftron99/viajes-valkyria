@@ -27,7 +27,7 @@ body{
 }
 
 header {
-  
+
     top: 0;
     background-color: rgb(0, 0, 0);
     padding: 100px;
@@ -191,96 +191,6 @@ section{
 
 
 
-/*.container{
-    grid-template-columns: 100px 100px 100px;
-    display: grid;
-}
-
-.container div {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-
-/*.salgas h2 {
-    color: white;
-    font-size: xx-large;
-    text-align: center;
-    margin: 20px
-
-
-}
-
-.cataratas h3 {
-    color: white;
-    font-size: x-large;
-    padding: 20px;
-
-}
-.cataratas img {
-    height: 100px;
-    width: 100px;
-padding: 15px;
-background-color: rgb(196, 122, 12);
-}
-
-.cataratas p {
-    color: white;
-    font-size: large;
-}
-.islandia h3 {
-    color: white;
-    font-size: x-large;
-    padding: 20px;
-}
-.islandia img {
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    background-color: rgb(63, 215, 249);
-}
-.islandia p {
-    color: white;
-    font-size: large;
-}
-
-.br h3 {
-    color: white;
-    font-size: x-large;
-    padding: 20px;
-}
-.br img {
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    background-color: antiquewhite;
-}
-
-.br p {
-    color: white;
-    font-size: large;
-}
-
-.baires h3 {
-    color: white;
-    font-size: x-large;
-    padding: 20px;
-}
-
-.baires img {
-    height: 100px;
-    width: 100px;
-    padding: 15px;
-    background-color: rgb(66, 68, 68);
-}
-.baires p{
-     color: white;
-     font-size: large;
-}
-
-
 
 /***** CONTACTO ***/-------------------------------------------------
 
@@ -426,8 +336,8 @@ header{
         font-size: 20px;
     }
     .bievenido iframe{
-        width: 80px;
-        height: 50px;
+        width: 150px;
+        height: 100px;
     }
     footer .pie img{
         height: auto;
@@ -453,6 +363,7 @@ header{
         font-size: 15px;
     }
     nav a{
+        margin: 0px;
         font-size: 15px;
     }
     .Logo{

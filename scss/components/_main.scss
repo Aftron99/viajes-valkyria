@@ -1,0 +1,60 @@
+
+main{
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        aside {
+            flex: 20px;
+background-color:$color-primario;
+padding: 20px;
+
+}
+section{
+    flex: 70%;
+
+padding: 20px;
+}
+
+.allado h2{
+    font-size: xx-large;
+color: $color-secundario;
+text-align: center;
+
+}
+.allado p{
+    padding: 20px;
+margin: 20px;
+color:$color-secundario;
+font-size: xx-large;
+
+}
+.allado img{
+    padding: 30px;
+position: relative;
+top: 0px;
+left: 0px;
+bottom: 0px;
+
+
+}
+
+.bienvenido h2{
+    font-size: xx-large;
+    color:$color-secundario;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.bienvenido p{
+    font-size: xx-large;
+    color: $color-secundario;
+    text-align: center;
+}
+.bienvenido iframe{
+    margin: 100px;
+}
+
+}

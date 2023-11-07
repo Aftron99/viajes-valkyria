@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-size: cover;
+  background-image: url("../img/fondo.jpg"); }
+
+header {
+  top: 0;
+  background-color: black;
+  padding: 100px;
+  width: 100%; }
+  header .logo {
+    width: 125px;
+    cursor: pointer; }
+  header a img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px; }
+  header h1 {
+    margin: 50px;
+    color: #fefffb;
+    font-size: 55px;
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; }
+    header nav a {
+      color: #fefffb;
+      padding: 20px;
+      font-size: xx-large;
+      text-decoration: none; }
+    header nav div .linea {
+      color: #fefffb;
+      text-align: center;
+      font-size: 150px; }
+
+main .row {
+  display: flex;
+  flex-wrap: wrap; }
+
+main aside {
+  flex: 20px;
+  background-color: black;
+  padding: 20px; }
+
+main section {
+  flex: 70%;
+  padding: 20px; }
+
+main .allado h2 {
+  font-size: xx-large;
+  color: #fefffb;
+  text-align: center; }
+
+main .allado p {
+  padding: 20px;
+  margin: 20px;
+  color: #fefffb;
+  font-size: xx-large; }
+
+main .allado img {
+  padding: 30px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: 0px; }
+
+main .bienvenido h2 {
+  font-size: xx-large;
+  color: #fefffb;
+  margin: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+main .bienvenido p {
+  font-size: xx-large;
+  color: #fefffb;
+  text-align: center; }
+
+main .bienvenido iframe {
+  margin: 100px; }
+
+footer {
+  width: 100%;
+  background-color: #3b0303;
+  display: flex; }
+  footer footer h2 {
+    font-size: xx-large;
+    text-align: center;
+    color: #fefffb; }
+  footer .pie img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px; }
+
+@media screen and (max-width: 1324px) {
+  .allado img {
+    height: 400px;
+    width: 350px;
+    left: 450px; }
+  footer h2 {
+    font-size: 15px;
+    padding: 30px;
+    color: #fdfdfd; } }
+
+@media screen and (max-width: 1040px) {
+  header {
+    width: 100%;
+    background-color: black; }
+    header nav {
+      flex-direction: column; }
+  main div .row {
+    flex-direction: column; }
+  main .allado img {
+    padding: 0px;
+    position: relative;
+    left: 350px; }
+  main .bienvenido iframe {
+    width: 350px;
+    height: 280px; } }
+
+@media screen and (max-width: 852px) {
+  .allado img {
+    height: 300px;
+    width: 250px;
+    left: 280px; } }
+
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+    background-color: black; }
+    header h1 {
+      font-size: 30px; }
+    header nav {
+      flex-direction: column; }
+    header .linea p {
+      font-size: 5px; }
+  main .allado img {
+    padding: 0px;
+    position: relative;
+    left: 180px; }
+  main .bienvenido iframe {
+    width: 200px;
+    height: 170px; }
+  footer h2 {
+    color: white; }
+  footer .pie img {
+    height: auto;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px; } }
+
+@media screen and (max-width: 430px) {
+  header {
+    width: 100%;
+    background-color: black; }
+    header .Logo {
+      height: 100px;
+      height: 100px; }
+    header h1 {
+      font-size: 15px; }
+  main .allado img {
+    height: 280px;
+    width: 150px;
+    left: 130px; }
+  main .allado h2 {
+    font-size: 25px; }
+  main .allado p {
+    font-size: 15px; }
+  main .bienvenido h1 {
+    font-size: 15px; }
+  main .bienvenido p {
+    font-size: 15px; }
+  main .bievenido iframe {
+    width: 150px;
+    height: 100px; }
+  footer .pie img {
+    height: auto;
+    width: auto;
+    max-width: 50px;
+    max-height: 50px; }
+  footer h2 {
+    font-size: 15px;
+    padding: 30px;
+    color: #fdfdfd; } }
