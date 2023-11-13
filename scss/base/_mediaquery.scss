@@ -4,13 +4,17 @@
         width: 350px;
         left: 450px;
     }
-    footer h2{
+    footer  h3{
             font-size: 15px;
         padding: 30px;
         color: rgb(253, 253, 253);
         }
-        
-    }
+        #carouselExampleCaptions {
+            margin: 100px;
+             max-width:700px; /* Puedes ajustar el ancho según tu preferencia para dispositivos móviles */
+            left:100px;
+}
+    
 
 
 @media screen and (max-width:1040px){
@@ -36,6 +40,20 @@
         width: 350px;
         height: 280px;
     }
+
+footer{
+    h3{
+        color: white;
+    }
+
+
+.pie img{
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+
+}
 }
 }
 
@@ -44,10 +62,28 @@
         height: 300px;
         width: 250px;
         left: 280px;
-        
+    }
     
+    .paquete img{
+    
+        width: 500px;
+        height: 400px;
+        
     }
-    }
+
+        #carouselExampleCaptions {
+            margin: 100px;
+             max-width:400px; /* Puedes ajustar el ancho según tu preferencia para dispositivos móviles */
+            left:100px;
+}
+footer .pie img{
+    height: auto;
+    width: auto;
+    max-width: 75px;
+    max-height: 75px;
+
+}
+}
 
     @media screen and (max-width:600px){
         header{
@@ -76,6 +112,21 @@
             height: 170px;
         }
     }
+    .paquete img{
+    
+        width: 350px;
+        height: 300px;
+        
+    }
+    #carouselExampleCaptions {
+        margin: 80px;
+         max-width:350px; /* Puedes ajustar el ancho según tu preferencia para dispositivos móviles */
+        left:30px;
+}
+.visita iframe{
+    width: 350px;
+    height: 180px;
+}
 
     footer{
         h2{
@@ -140,5 +191,7 @@ footer h2{
     font-size: 15px;
 padding: 30px;
 color: rgb(253, 253, 253);
+}
+}
 }
 }

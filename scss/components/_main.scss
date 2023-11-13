@@ -1,4 +1,4 @@
-
+/******INDEX*****/
 main{
     .row{
         display: flex;
@@ -56,5 +56,83 @@ bottom: 0px;
 .bienvenido iframe{
     margin: 100px;
 }
+
+}
+
+/*****Paquetes*****/
+.paquete h2{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px;
+}
+.paquete p {
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+}
+.paquete img{
+    
+    width: 750px;
+    height: 500px;
+    
+}
+.actividades p {
+    color: white;
+    font-size: xx-large;
+    padding: 30px;
+}
+.actividades ol li {
+    color: white;
+    font-size: xx-large;
+    padding: 30px;
+    
+
+}
+
+/******DESTINOS******/
+.carrusel p{
+    text-align: center;
+}
+#carouselExampleCaptions {
+    max-width: 700px; /* Ancho máximo del carrusel */
+    margin: 100px;
+    left: 400px; /* Centra el carrusel en el contenedor */
+  }
+  #carouselExampleCaptions .carousel-inner  img {
+    max-height: 700px; /* Altura máxima de las imágenes del carrusel */
+    width: 100%; /* Ajusta el ancho de las imágenes al contenedor */
+  }
+ h5{
+    font-size: 50px;
+  }
+
+/*****CONTACTANOS*****/
+.contacto h2 {
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px;
+}
+.contacto p {
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+.contacto div {
+    color: white;
+    font-size: large;
+    padding: 20px;
+}
+
+/*****VISITANOS*****/ 
+.visita h3 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+.visita p {
+    font-size: 30px;
+text-align: center;
 
 }

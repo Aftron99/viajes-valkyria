@@ -1,12 +1,16 @@
 header{
     top: 0;
-    background-color:$color-primario;
+    background: rgb(5,4,0);
+background: linear-gradient(90deg, rgba(5,4,0,1) 11%, rgba(200,122,9,1) 49%, rgba(0,0,0,1) 89%);
     padding: 100px;
     width: 100%;
 
     .logo {
         width: 125px;
         cursor: pointer;
+    }
+    
+
     }
     
 
@@ -28,7 +32,11 @@ header{
         justify-content: center;
         display: flex;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: 1s;
 
+    }
+    h1:hover{
+        transform: scale(1.2);
     }
 
     nav{
@@ -51,4 +59,3 @@ header{
 
     }
     }
-}

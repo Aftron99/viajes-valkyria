@@ -1,21 +1,18 @@
-footer{
-    width: 100%;
-background-color:$color-terciario;
-display: flex;
-
-footer h2{
-    font-size: xx-large;
+footer {
+    background-color: rgb(69, 3, 3)
+}
+footer .pie h3{
+    font-size: 20px;
     text-align: center;
-    color: $color-secundario;
-
+    color: white;
+    padding: 20px;
 }
 .pie img{
-    height: auto;
-    width: auto;
-    max-width: 200px;
-    max-height: 200px;
-
-}
-
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
 }
 
