@@ -1,4 +1,5 @@
 header{
+
     top: 0;
     background: rgb(5,4,0);
 background: linear-gradient(90deg, rgba(5,4,0,1) 11%, rgba(200,122,9,1) 49%, rgba(0,0,0,1) 89%);
@@ -8,29 +9,22 @@ background: linear-gradient(90deg, rgba(5,4,0,1) 11%, rgba(200,122,9,1) 49%, rgb
     .logo {
         width: 125px;
         cursor: pointer;
-    }
-    
+}
 
-    }
-    
+p{
+    text-align: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
 
-    a{
-        img{
-            height: auto;
-            width: auto;
-            max-width: 200px;
-            max-height: 200px
-    }
 
-    }
-    
-    h1{
+h1{
+    text-align: center;
         margin: 50px;
         color: $color-secundario;
-        font-size: 55px;
-        align-items: baseline;
-        justify-content: center;
-        display: flex;
+        font-size: 65px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: 1s;
 
@@ -39,23 +33,4 @@ background: linear-gradient(90deg, rgba(5,4,0,1) 11%, rgba(200,122,9,1) 49%, rgb
         transform: scale(1.2);
     }
 
-    nav{
-        display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-        
-        a{
-            color:$color-secundario;
-    padding: 20px;
-    font-size: xx-large;
-    text-decoration: none;
 }
-
-        
-    div .linea {
-        color:$color-secundario;
-    text-align: center;
-    font-size: 150px;
-
-    }
-    }

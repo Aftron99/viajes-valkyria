@@ -20,39 +20,20 @@ header {
   header .logo {
     width: 125px;
     cursor: pointer; }
-
-a img {
-  height: auto;
-  width: auto;
-  max-width: 200px;
-  max-height: 200px; }
-
-h1 {
-  margin: 50px;
-  color: #fefffb;
-  font-size: 55px;
-  align-items: baseline;
-  justify-content: center;
-  display: flex;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  transition: 1s; }
-
-h1:hover {
-  transform: scale(1.2); }
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row; }
-  nav a {
-    color: #fefffb;
-    padding: 20px;
-    font-size: xx-large;
-    text-decoration: none; }
-  nav div .linea {
-    color: #fefffb;
+  header p {
+    text-align: center; }
+  header img {
+    width: 150px;
+    height: 150px; }
+  header h1 {
     text-align: center;
-    font-size: 150px; }
+    margin: 50px;
+    color: #fefffb;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s; }
+  header h1:hover {
+    transform: scale(1.2); }
 
 /******INDEX*****/
 main .row {
@@ -174,20 +155,28 @@ h5 {
   text-align: center; }
 
 footer {
-  background-color: #450303; }
+  background-color: #a7571e; }
 
 footer .pie h3 {
-  font-size: 20px;
+  color: black;
+  font-size: 35px;
   text-align: center;
-  color: white;
-  padding: 20px; }
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin: 35px; }
 
-.pie img {
-  max-width: 150px;
-  max-height: 150px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center; }
+div .imagenes-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .pie img {
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+  width: 150px;
+  height: 150px; }
 
 @media screen and (max-width: 1324px) {
   .allado img {
@@ -243,8 +232,8 @@ footer .pie h3 {
   footer .pie img {
     height: auto;
     width: auto;
-    max-width: 75px;
-    max-height: 75px; } }
+    max-width: 95px;
+    max-height: 95px; } }
 
 @media screen and (max-width: 1324px) and (max-width: 1040px) and (max-width: 600px) {
   header {
@@ -309,8 +298,8 @@ footer .pie h3 {
   footer .pie img {
     height: auto;
     width: auto;
-    max-width: 50px;
-    max-height: 50px; }
+    max-width: 80px;
+    max-height: 80px; }
   footer h2 {
     font-size: 15px;
     padding: 30px;

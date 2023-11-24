@@ -1,18 +1,28 @@
-footer {
-    background-color: rgb(69, 3, 3)
+footer{
+    background-color: rgb(167, 87, 30);
 }
 footer .pie h3{
-    font-size: 20px;
+    color: black;
+    font-size: 35px;
     text-align: center;
-    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
-}
-.pie img{
-    max-width: 150px;
-    max-height: 150px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    
+    margin: 35px;
 }
 
+div .imagenes-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .pie img{
+    justify-content: center;
+    align-items: center;
+margin: 20px;
+   padding: 15px;
+    width: 150px;
+    height: 150px;
+    
+
+}
