@@ -159,20 +159,13 @@ footer {
 
 footer .pie h3 {
   color: black;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 20px;
   margin: 35px; }
 
-div .imagenes-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 footer .pie img {
-  justify-content: center;
-  align-items: center;
   margin: 20px;
   padding: 15px;
   width: 150px;
@@ -268,8 +261,8 @@ footer .pie img {
   footer .pie img {
     height: auto;
     width: auto;
-    max-width: 50px;
-    max-height: 50px; } }
+    max-width: 90px;
+    max-height: 90px; } }
 
 @media screen and (max-width: 1324px) and (max-width: 1040px) and (max-width: 430px) {
   header {
@@ -296,10 +289,8 @@ footer .pie img {
     width: 150px;
     height: 100px; }
   footer .pie img {
-    height: auto;
-    width: auto;
-    max-width: 80px;
-    max-height: 80px; }
+    max-width: 100px;
+    max-height: 100px; }
   footer h2 {
     font-size: 15px;
     padding: 30px;
